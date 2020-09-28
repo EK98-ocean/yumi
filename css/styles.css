@@ -6,6 +6,7 @@ body{
 .Column{
     float: left;
     width: 33%;
+    padding: 10px;
 }
 
 img{
@@ -14,15 +15,19 @@ img{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    padding: 5px;
 }
 
 #About{
+    width: 25%;
     border: skyblue 4px solid;
     font-style: italic;
     background-color: white;
 }
 
 #Upcoming{
+    float: right;
+    text-align: center;
     color: white;
     background-color: cadetblue;
     border: white 2px dashed;
@@ -34,4 +39,8 @@ img{
 ul{
     list-style-type: none;
     text-align: center;
+}
+
+ol{
+    list-style-position: inherit;
 }
